@@ -15,7 +15,6 @@ from pynput import keyboard
 VIDEO_DEVICE_INDEX = 0      
 AUDIO_DEVICE_INDEX = None   
 
-# Where to drop screenshots and transcripts
 drop_dir = os.path.expanduser('~/Problems')
 os.makedirs(drop_dir, exist_ok=True)
 
