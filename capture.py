@@ -12,8 +12,8 @@ import openai
 from pynput import keyboard
 
 # ───── CONFIG ─────
-VIDEO_DEVICE_INDEX = 0      # OBS Virtual Camera (based on your ffmpeg output)
-AUDIO_DEVICE_INDEX = None   # We'll find this automatically
+VIDEO_DEVICE_INDEX = 0      
+AUDIO_DEVICE_INDEX = None   
 
 # Where to drop screenshots and transcripts
 drop_dir = os.path.expanduser('~/Problems')
